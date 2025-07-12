@@ -1,0 +1,19 @@
+{
+    "environment": "dev",
+    "scan_interval": 60,
+    "modules": [
+        "network",
+        "system"
+    ],
+    "log_level": "DEBUG",
+    "targets": [
+        {
+            "host": "192.168.1.1",
+            "port": 8080
+        },
+        {
+            "host": "example.com",
+            "port": 443
+        }
+    ]
+}

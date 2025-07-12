@@ -1,0 +1,11 @@
+environment: dev
+log_level: DEBUG
+modules:
+- network
+- system
+scan_interval: 60
+targets:
+- - 192.168.1.1
+  - 8080
+- - example.com
+  - 443
